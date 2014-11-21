@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlList id="city">
+	<sql id="selectCityAll">
+		select * from city
+	</sql>
+</sqlList>
