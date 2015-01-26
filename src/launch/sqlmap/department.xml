@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlList id="department">
+	<sql id="selectAllDepartment">
+		select * from department
+	</sql>
+	<sql id="selectDepartmentById">
+		select * from department where id=?
+	</sql>
+</sqlList>

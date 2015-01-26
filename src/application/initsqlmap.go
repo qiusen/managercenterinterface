@@ -23,7 +23,8 @@ func loadSqlmap(database Database) *list.List {
 
 	i := strings.Index(absFilePath, "*")
 	absFolder := util.Substr(absFilePath, 0, i)
-	extName := util.Substr(absFilePath, i+1, len(absFilePath))
+	j := strings.LastIndex(absFilePath, "*")
+	extName := util.Substr(absFilePath, j+1, len(absFilePath))
 	fmt.Println(absFolder)
 	fmt.Println(extName)
 
@@ -127,7 +128,5 @@ func initSqlmapData(fileList *list.List) map[string]map[string]string {
 		fmt.Printf("-----解析文件 %s 完成-----\n", flstr)
 	}
 
-	fmt.Println("selectAreaAll: ", sqlmapData["area"]["selectAreaAll"])
-	fmt.Println("selectCityAll: ", sqlmapData["city"]["selectCityAll"])
 	return sqlmapData
 }

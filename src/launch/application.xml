@@ -4,4 +4,7 @@
 		<dbconfig>./db.properties</dbconfig>
 		<sqlmap>./sqlmap/*.xml</sqlmap>
 	</database>
+	<thrift>
+		<tconfig>./thrift.properties</tconfig>
+	</thrift>
 </application>

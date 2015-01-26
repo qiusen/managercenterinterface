@@ -27,6 +27,13 @@ type Database struct {
 	Sqlmap string
 }
 
+type ThriftConfig struct {
+	Ip   string
+	Port int
+}
+
+var tconfig ThriftConfig
+
 func InitConfig() {
 	var t xml.Token
 	var err error
@@ -43,6 +50,8 @@ func InitConfig() {
 
 	var database Database
 
+	var tcstr string
+
 	var c = 0
 
 	for t, err = decoder.Token(); err == nil; t, err = decoder.Token() {
@@ -56,6 +65,9 @@ func InitConfig() {
 			if name == "sqlmap" {
 				c = 2
 			}
+			if name == "tconfig" {
+				c = 3
+			}
 
 		case xml.EndElement:
 
@@ -68,6 +80,9 @@ func InitConfig() {
 			}
 			if c == 2 {
 				database.Sqlmap = content
+			}
+			if c == 3 {
+				tcstr = content
 			}
 		}
 	}
@@ -91,7 +106,9 @@ func InitConfig() {
 
 	fileList := loadSqlmap(database)
 	SqlmapData = initSqlmapData(fileList)
-	fmt.Println(len(SqlmapData))
+	fmt.Println("加载SQL配置文件 ", len(SqlmapData), " 个")
+
+	tconfig = loadThriftConfig(tcstr)
 
 	//for t, err = decoder.Token(); err == nil; t, err = decoder.Token() {
 	//	switch token := t.(type) {
@@ -120,4 +137,8 @@ func GetDBConn() *sql.DB {
 
 func GetSqlmapData() map[string]map[string]string {
 	return SqlmapData
+}
+
+func GetThrfitConfig() ThriftConfig {
+	return tconfig
 }

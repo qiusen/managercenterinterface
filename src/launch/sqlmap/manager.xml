@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlList id="manager">
+	<sql id="selectAllManager">
+		select * from manager
+	</sql>
+	<sql id="selectManagerByEmailPassword">
+		select * from manager where email=? and password=?
+	</sql>
+</sqlList>

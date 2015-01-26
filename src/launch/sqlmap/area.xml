@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sqlList id="area">
-	<sql id="selectAreaAll">
-		select * from area
-	</sql>
-</sqlList>

@@ -1,0 +1,211 @@
+database.Config = ./db.properties, database.Sqlmap= ./sqlmap/*.xml 
+database.Config loading... ./db.properties
+db.dbname managercenter
+db.charset utf8
+db.maxopenconns 20
+db.maxidleconns 1000
+db.password 
+db.host 127.0.0.1
+db.port 3306
+db.protocol tcp
+db.username root
+loadSqlmap  ./sqlmap/*.xml
+/myfile/goworkspace/managercenterinterface/src/launch/sqlmap/
+.xml
+/myfile/goworkspace/managercenterinterface/src/launch/sqlmap/
+2
+/myfile/goworkspace/managercenterinterface/src/launch/sqlmap/department.xml
+/myfile/goworkspace/managercenterinterface/src/launch/sqlmap/manager.xml
+2
+-----解析文件 /myfile/goworkspace/managercenterinterface/src/launch/sqlmap/department.xml 完成-----
+-----解析文件 /myfile/goworkspace/managercenterinterface/src/launch/sqlmap/manager.xml 完成-----
+selectAreaAll:  
+selectCityAll:  
+加载SQL配置文件  2  个
+thrift tconfig.ip 127.0.0.1
+thrift tconfig.port 19090
+thrift server in 127.0.0.1:19090
+-->FunCall: 1420770179607 login map[tName:manager sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3]
+&{0xc2080042a0 0x7d5f0 0xc2080425a0 false [] ?reflect.Value? 0xc208024f30}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 10:15:22 --- 127.0.0.1
+-->FunCall: 1420770266717 login map[pValue:test5@test.com,098f6bcd4621d373cade4e832627b4f6 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042980 false [] ?reflect.Value? 0xc208025380}
+13 ---- test5@test.com ---- 098f6bcd4621d373cade4e832627b4f6 --- 我是普通员工 ---- test5 ----  --- 1 --- 3 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2014-12-23 15:54:00 --xx-- 2015-01-09 10:24:25 --- 127.0.0.1
+-->FunCall: 1420770557204 login map[pValue:test4@test.com,098f6bcd4621d373cade4e832627b4f6 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+12 ---- test4@test.com ---- 098f6bcd4621d373cade4e832627b4f6 --- 项目组leader ---- test4 ----  --- 1 --- 3 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2014-12-23 15:53:14 --xx-- 2015-01-09 10:29:12 --- 127.0.0.1
+-->FunCall: 1420771137811 login map[pValue:test5@test.com,098f6bcd4621d373cade4e832627b4f6 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+13 ---- test5@test.com ---- 098f6bcd4621d373cade4e832627b4f6 --- 我是普通员工 ---- test5 ----  --- 1 --- 3 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2014-12-23 15:54:00 --xx-- 2015-01-09 10:24:25 --- 127.0.0.1
+-->FunCall: 1420771309372 login map[sName:selectManagerByEmailPassword pValue:test5@test.com,098f6bcd4621d373cade4e832627b4f6 tName:manager]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+13 ---- test5@test.com ---- 098f6bcd4621d373cade4e832627b4f6 --- 我是普通员工 ---- test5 ----  --- 1 --- 3 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2014-12-23 15:54:00 --xx-- 2015-01-09 10:24:25 --- 127.0.0.1
+-->FunCall: 1420771472158 login map[pValue:test5@test.com,098f6bcd4621d373cade4e832627b4f6 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+13 ---- test5@test.com ---- 098f6bcd4621d373cade4e832627b4f6 --- 我是普通员工 ---- test5 ----  --- 1 --- 3 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2014-12-23 15:54:00 --xx-- 2015-01-09 10:24:25 --- 127.0.0.1
+-->FunCall: 1420771544670 login map[tName:manager sName:selectManagerByEmailPassword pValue:test5@test.com,098f6bcd4621d373cade4e832627b4f6]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+13 ---- test5@test.com ---- 098f6bcd4621d373cade4e832627b4f6 --- 我是普通员工 ---- test5 ----  --- 1 --- 3 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2014-12-23 15:54:00 --xx-- 2015-01-09 10:24:25 --- 127.0.0.1
+-->FunCall: 1420771762200 login map[sName:selectManagerByEmailPassword pValue:test5@test.com,098f6bcd4621d373cade4e832627b4f6 tName:manager]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+13 ---- test5@test.com ---- 098f6bcd4621d373cade4e832627b4f6 --- 我是普通员工 ---- test5 ----  --- 1 --- 3 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2014-12-23 15:54:00 --xx-- 2015-01-09 10:24:25 --- 127.0.0.1
+-->FunCall: 1420771768029 selectDepartmentById map[pValue:3 tName:department sName:selectDepartmentById]
+tName: department; sName: selectDepartmentById; pValue: 3len(ss):::::::::::::: 1
+len(ps):::::::::::::: 1
+sqlstr:::::::::::::: select * from department where id=?
+3 ---- CMS组 ---- cms --- 3 ---- test4@test.com ---- 2 --- qiu_sen@126.com --- 2014-12-23 15:51:56 --- qiu_sen@126.com --- 2014-12-23 15:54:45
+-->FunCall: 1420772373544 login map[pValue:test5@test.com,098f6bcd4621d373cade4e832627b4f6 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+13 ---- test5@test.com ---- 098f6bcd4621d373cade4e832627b4f6 --- 我是普通员工 ---- test5 ----  --- 1 --- 3 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2014-12-23 15:54:00 --xx-- 2015-01-09 10:24:25 --- 127.0.0.1
+-->FunCall: 1420787967670 login map[pValue:test5@test.com,098f6bcd4621d373cade4e832627b4f6 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+13 ---- test5@test.com ---- 098f6bcd4621d373cade4e832627b4f6 --- 我是普通员工 ---- test5 ----  --- 1 --- 3 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2014-12-23 15:54:00 --xx-- 2015-01-09 10:24:25 --- 127.0.0.1
+-->FunCall: 1420796955768 login map[sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421024130988 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421024909184 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421032228715 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421032315060 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421032637274 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421032663531 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042a00 false [] ?reflect.Value? 0xc208025350}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421032709254 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042e00 false [] ?reflect.Value? 0xc208025590}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421032753450 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421033482586 login map[sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421034803156 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421043097759 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421043176116 login map[sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager]
+&{0xc2080042a0 0x7d5f0 0xc208042a00 false [] ?reflect.Value? 0xc208025350}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421049567564 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421050731720 login map[sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421050767029 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421117733617 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421117770479 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042a00 false [] ?reflect.Value? 0xc208025350}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421118851257 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421138368753 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421138408876 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042a00 false [] ?reflect.Value? 0xc208025350}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421198643063 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421205808017 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421224708657 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421226066255 login map[sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421302675721 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421380384717 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421389143759 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421401337531 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421402486199 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421630928000 login map[sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421631022856 login map[sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421649353071 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421719595176 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421722053098 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421722210999 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421741293296 login map[sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421741354405 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042a00 false [] ?reflect.Value? 0xc208025350}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421746473417 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421747738415 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421802661237 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421802916865 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421806716467 login map[tName:manager sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421825792102 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421891292265 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421908484923 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1421912283191 login map[tName:manager sName:selectManagerByEmailPassword pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3]
+&{0xc2080042a0 0x7d5f0 0xc208042620 false [] ?reflect.Value? 0xc2080250b0}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1422233610983 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+[MySQL] 2015/01/26 08:53:31 packets.go:118: write tcp 127.0.0.1:3306: broken pipe
+[MySQL] 2015/01/26 08:53:31 packets.go:118: write tcp 127.0.0.1:3306: broken pipe
+&{0xc208004480 0x7d5f0 0xc208042800 false [] ?reflect.Value? 0xc208025350}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1
+-->FunCall: 1422253947997 login map[pValue:qiu_sen@126.com,21232f297a57a5a743894a0e4a801fc3 tName:manager sName:selectManagerByEmailPassword]
+&{0xc208004480 0x7d5f0 0xc2080425e0 false [] ?reflect.Value? 0xc208024f60}
+1 ---- qiu_sen@126.com ---- 21232f297a57a5a743894a0e4a801fc3 --- 邱森 ---- Nathan ----  --- 1 --- 0 ---- 0 ---- 1 --- qiu_sen@126.com --xx-- 2012-08-01 08:08:08 --xx-- 2015-01-09 17:45:12 --- 127.0.0.1

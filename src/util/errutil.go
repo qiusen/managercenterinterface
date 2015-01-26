@@ -16,3 +16,11 @@ func CheckErr(err error, mes string) {
 		panic(err.Error())
 	}
 }
+
+func CheckException(err error, mes string) bool {
+	if err != nil {
+		log.Println(err.Error(), mes)
+		return true
+	}
+	return false
+}
